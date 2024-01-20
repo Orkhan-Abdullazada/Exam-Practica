@@ -1,0 +1,46 @@
+.section3__all{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.section3__left{
+  width: 50%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/startup2/img/about/about.png.webp");
+}
+.section4__right{
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p{
+        font-size: 20px;
+    }
+   h3{
+    margin-right: 226px;
+    font-size: 23px;
+   }
+   a{
+    margin-right: 400px;
+   }
+   button{
+   width: 100px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: #615CFD;
+   color: white;
+   border: none;
+   margin-right: 380px;
+  
+   }
+}
+.button3{
+    :hover{
+        background-color: black;
+        border: 2 pc solid white;
+    }
+}
